@@ -57,6 +57,7 @@ body {
 	width: auto;
 	max-width: 100%;
 	height: auto;
+	padding-bottom: 60px;
 	margin-left: 60px;
 }
 .b-container__head {margin: 150px 0 0 150px;}
