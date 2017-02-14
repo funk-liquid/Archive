@@ -1,12 +1,6 @@
 $(function() {
 
-  $(window).load(function(){
-    setTimeout(function(){
-      $('.preloader').fadeOut('slow');
-    }, 500)
-  });
 
-});
 
   var bodyanimate = document.querySelector('body').animate({
       backgroundPosition: ['0%', '50%', '100%', '50%', '0%'],
@@ -71,17 +65,4 @@ $(function() {
         iterations: Infinity,
         duration: 1000
     });
-
-	/*var player = document.getElementById('toAnimate').animate([
-    { transform: 'scale(1)', opacity: 1, offset: 0 },
-    { transform: 'scale(.5)', opacity: .5, offset: .3 },
-    { transform: 'scale(.667)', opacity: .667, offset: .7875 },
-    { transform: 'scale(.6)', opacity: .6, offset: 1 }
-  ], {
-    duration: 700, //миллисекунды
-    easing: 'ease-in-out', //'linear', кривая Безье, и т.д.
-    delay: 10,  //миллисекунды
-    iterations: Infinity, //или число
-    direction: 'alternate', //'normal', 'reverse', и т.д.
-    fill: 'forwards' //'backwards', 'both', 'none', 'auto'
-  });*/
+});
